@@ -1,0 +1,26 @@
+{
+  "name": "heap-undefined",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "fastify start app.js",
+    "start": "node server.js",
+    "test": "node --test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/autoload": "^5.7.1",
+    "fastify": "^4.23.2",
+    "fastify-cli": "^5.8.0",
+    "fastify-plugin": "^4.5.1"
+  },
+  "devDependencies": {
+    "@flydotio/dockerfile": "^0.4.10",
+    "@types/node": "^20.6.0",
+    "typescript": "^5.2.2"
+  }
+}
